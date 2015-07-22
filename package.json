@@ -1,0 +1,23 @@
+{
+  "name": "javascript_unit_testing",
+  "version": "1.0.0",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/karma start karma.conf.jenkins.js"
+  },
+  "devDependencies": {
+    "karma": "^0.13.2",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.4.2",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-junit-reporter": "^0.3.2",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-qunit": "^0.1.4",
+    "karma-safari-launcher": "^0.1.1",
+    "phantomjs": "^1.9.17",
+    "qunitjs": "^1.18.0"
+  }
+}
